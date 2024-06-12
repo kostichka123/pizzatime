@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    background-color:rgba(220, 157, 42, 0.873);
+    margin: 0;
+}
+.pizzeria{
+     background-color: rgb(255, 213, 0);
+  text-align:center;
+  color:white;
+  padding-left:50px;
+}
+
+header img{
+  width: 100%;
+}
+header {
+  flex-wrap: wrap;
+  background-color: rgb(255, 213, 0);
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.pizza_logo{
+    width:1150px;
+    height:300px;
+}
+.menu{
+     width:300px;
+    height:300px;
+
+}
+.contact{
+    width:100px;
+    height:100px;
+}
+
+.price{
+    color:red;
+}
+h2{
+  text-align:center;
+}
+.action{
+  padding-right:70px;
+  text-align: center;
+}
+.pizzeria{
+  font-size:25px;
+}
+
+article{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+main img:hover{
+  transform: scale(1.5);
+  transition: 1s linear;
+}
+
+.sells{
+  text-align: center;
+}
+
+footer{
+  background-color: rgb(27, 27, 27);
+  color: grey;
+}
+
+footer a{
+  color: white;
+}
+footer img{
+  width: 30px;
+  height: 30px;
+}
